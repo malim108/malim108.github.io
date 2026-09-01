@@ -1,0 +1,215 @@
+body{
+    background-image: linear-gradient(to right,#486C09,#8cd211);
+}
+
+.Inlog-card{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    vertical-align: middle;
+    border-radius: 1rem;
+    position: relative;
+    top: 7rem;
+    width: fit-content;
+}
+
+
+.btn-login {
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #76B900;
+    border-style: none;
+    color: white;
+    align-items: center;
+    float: right;
+    margin-left: 1rem;
+}
+
+.btn-login-reg {
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #76B900;
+    border-style: none;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+
+.Inlog-card input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.2rem;
+    border-color: lightgrey;
+    color: black;
+    width: 100%;
+}
+
+.Inlog-card ::placeholder{
+    color: lightgrey;
+}
+
+.background-img-J{
+    position: absolute;
+    width: 40rem;
+    margin-right: 20rem;
+    opacity: 0.3;
+    left: -4rem;
+    bottom: -7rem;
+}
+
+.WelkomForm{
+    font-size: x-large;
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+}
+
+.cart-rot{
+    color: black;
+}
+
+.cart-rot :hover{
+    transform: rotate(0.1deg);
+    color: white;
+}
+
+.Inlog-card-reg{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    vertical-align: middle;
+    border-radius: 1rem;
+    position: relative;
+    top: 1rem;
+}
+
+.Inlog-card-reg ::placeholder{
+    color: lightgrey;
+}
+
+.Inlog-card-reg input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.2rem;
+    border-color: lightgrey;
+    color: black;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.melding{
+    color: red; 
+    background-color: white; 
+    width: 20rem; 
+    padding-top: 2rem; 
+    padding-bottom: 1rem; 
+    position: absolute; 
+    top: 30rem; 
+    margin-left: 1rem; 
+    padding-left: 1rem; 
+    border-style: solid; 
+    border-color: red; 
+    border-radius: 0.5rem; 
+}
+
+.fadeOut {
+    transition: fade 5000ms ;
+}
+
+@keyframes fade{
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+.gemeentenr input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.2rem;
+    border-color: lightgrey;
+    color: black;
+}
+
+.straatnr input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.2rem;
+    border-color: lightgrey;
+    color: black;
+}
+
+.animate-fading{
+    animation:fade 2s ease-out forwards;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+    pointer-events: none;
+}
+@keyframes fade{
+    0%{opacity:1}
+    100%{opacity:0}
+}
+
+.animate-top{
+    position:relative;
+    animation:animatetop 0.4s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+}
+@keyframes animatetop{
+    from{top:-300px; opacity:0} 
+    to{top:0; opacity:1}
+}
+
+.animate-left{
+    position:relative;
+    animation:animateleft 0.4s
+}
+@keyframes animateleft{
+    from{left:-300px; opacity:0} 
+    to{left:0; opacity:1}
+}
+
+.btn-terug-login{
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-terug-login:hover{
+    color: white;
+}
